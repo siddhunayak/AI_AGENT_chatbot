@@ -2,15 +2,15 @@
 
 This tool allows you to interact with advanced AI agents powered by OpenAI and Groq LLMs. It can optionally use web search (via Tavily) to improve responses. Built using LangGraph, FastAPI, and Streamlit.
 
-<img src="resources/chatbot_ui.jpg"/>
 
-Let’s say Harsh wants to build a smart chatbot. He can define how the chatbot should behave using a system prompt, choose from powerful LLMs, and optionally enable web search. Then simply enter a query and get a smart, friendly response from the agent.
+
+Let’s say x wants to build a smart chatbot. He can define how the chatbot should behave using a system prompt, choose from powerful LLMs, and optionally enable web search. Then simply enter a query and get a smart, friendly response from the agent.
 
 ---
 
 ## 🧱 Technical Architecture
 
-<img src="resources/architecture.jpg"/>
+
 
 1. **Frontend (Streamlit)**: Allows user to define the chatbot, pick model/provider, and send a query.
 2. **Backend (FastAPI)**: Receives the request, configures the AI agent, and returns the AI's response.
