@@ -33,10 +33,7 @@ Let’s say x wants to build a smart chatbot. He can define how the chatbot shou
     pipenv shell
     ```
 
-    > Or use:
-    > ```bash
-    > pip install -r requirements.txt
-    > ```
+   
 
 3. **Run backend**:
     ```bash
